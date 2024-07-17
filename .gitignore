@@ -1,0 +1,8 @@
+git init
+echo "__pycache__/" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "venv/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "*.pyo" >> .gitignore
+echo "*.pyd" >> .gitignore
+echo "*.log" >> .gitignore
