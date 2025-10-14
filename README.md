@@ -1,6 +1,6 @@
 <div align="center">
 
-```
+
 ███ ███ █  █ ███ ███ █ █ █  █ █   ██  
   █ █   ██ █  █   █  █ █ ██ █ █   █ █ 
  █  ██  █ ██  █   █  ███ █ ██ █   ██  
@@ -8,12 +8,14 @@
 █   █   █  █  █   █  █ █ █  █ █   █   
 ███ ███ █  █ ███  █  █ █ █  █ ███ █   
                                     
-```
+
 ### A Framework for Advanced Natural Language Processing
 </div>
 
+[![PyPI version](https://badge.fury.io/py/my-nlp-framework.svg)](https://badge.fury.io/py/my-nlp-framework)
+[![Python versions](https://img.shields.io/pypi/pyversions/my-nlp-framework.svg)](https://pypi.org/project/my-nlp-framework)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Actions CI](https://github.com/cattolatte/zenith-nlp-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/cattolatte/zenith-nlp-framework/actions/workflows/ci.yml)
 
 **ZenithNLP** is an advanced, from-scratch NLP framework built with PyTorch for training, fine-tuning, and deploying modern transformer-based models. It serves as a comprehensive toolkit for NLP practitioners and researchers, featuring a modular architecture and a full suite of MLOps capabilities.
 
