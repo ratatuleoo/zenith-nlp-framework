@@ -13,7 +13,6 @@
 ### A Framework for Advanced Natural Language Processing
 </div>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch)
 ![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra)
@@ -154,3 +153,4 @@ This framework is organized into several key modules:
 `tests/`: Unit and integration tests for the framework.
 
 This project was built as an advanced, from-scratch implementation of a modern NLP framework.
+
