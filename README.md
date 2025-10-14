@@ -6,24 +6,35 @@
    ██  █████  ████ ██   ██     ██   ██████ ████ ██ ██     ██████  
   ██   ██     ██ ████   ██     ██   ██  ██ ██ ████ ██     ██      
  ██    ██     ██  ███   ██     ██   ██  ██ ██  ███ ██     ██      
-██████ ██████ ██   ██ ██████   ██   ██  ██ ██   ██ ██████ ██      
-                                                               
+██████ ██████ ██   ██ ██████   ██   ██  ██ ██   ██ ██████ ██    
 ```
 
+# A Framework for Advanced Natural Language Processing
+
 ### A Framework for Advanced Natural Language Processing
+
 </div>
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch)
-![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra)
-![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow)
-![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi)
-![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
+<div align="center">
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch) ![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra) ![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow) ![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi) ![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
+
+</div>
 
 **ZenithNLP** is an advanced, from-scratch NLP framework built with PyTorch for training, fine-tuning, and deploying modern transformer-based models. It serves as a comprehensive toolkit for NLP practitioners and researchers, featuring a modular architecture and a full suite of MLOps capabilities.
+
+---
+
+## 📜 Table of Contents
+
+- [✨ Features](#-features)
+- [🚀 Getting Started](#-getting-started)
+- [📖 Tutorial: Training a Text Classifier](#-tutorial-training-a-text-classifier)
+- [🏛️ Framework Architecture](#️-framework-architecture)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
 
 ## ✨ Features
 
@@ -45,6 +56,8 @@
 - **Custom Core Components**:
   - A trainable **Byte-Pair Encoding (BPE) Tokenizer** built from scratch.
   - Modular implementations of `MultiHeadAttention`, `PositionalEncoding`, and other core transformer building blocks.
+
+---
 
 ## 🚀 Getting Started
 
@@ -73,6 +86,8 @@ pip install -r requirements.txt
 # 4. Install the project in editable mode
 pip install -e .
 ```
+
+---
 
 ## 📖 Tutorial: Training a Text Classifier
 
@@ -108,7 +123,7 @@ docker-compose up -d
 ```
 Navigate to **http://localhost:5000** in your browser to view the MLflow dashboard.
 
-🌐 Serving Your Model via API
+### 🌐 Serving Your Model via API
 Once you have a trained model (`.pth` file) and tokenizer (`.json` file), you can easily deploy it with the built-in FastAPI server.
 
 ```bash
@@ -121,7 +136,7 @@ python3 -m my_nlp_framework.inference.api \
 
 The API will be available at **http://localhost:8000/docs** for interactive testing.
 
-🐳 Running with Docker
+### 🐳 Running with Docker
 You can also run the entire training process within a Docker container for perfect reproducibility.
 
 ```bash
@@ -129,27 +144,39 @@ You can also run the entire training process within a Docker container for perfe
 docker build -t zenith-nlp-framework:latest .
 
 # 2. Run a task (mounting your local data directory)
-docker run --rm -v "$(pwd)/data":/app/data zenith-nlp-framework:latest \
+docker run --rm -v "$(pwd)/data":/app/data mzenith-nlp-framework:latest \
   python -m my_nlp_framework.tasks.text_classification
 ```
 
-🏛️ Framework Architecture
+---
+
+## 🏛️ Framework Architecture
+
 This framework is organized into several key modules:
 
-`src/my_nlp_framework/core`: Contains the fundamental building blocks like attention mechanisms, LoRA layers, and tokenizers.
+-   `src/my_nlp_framework/core`: Contains the fundamental building blocks like attention mechanisms, LoRA layers, and tokenizers.
+-   `src/my_nlp_framework/models`: Defines high-level model architectures like BERT and GPT.
+-   `src/my_nlp_framework/data`: Includes flexible data loaders.
+-   `src/my_nlp_framework/training`: A powerful, centralized training engine with advanced features.
+-   `src/my_nlp_framework/tasks`: Example scripts that show how to use the framework to solve end-to-end problems.
+-   `src/my_nlp_framework/inference`: Code for deploying and serving trained models.
+-   `configs/`: Centralized YAML configuration files for Hydra.
+-   `tests/`: Unit and integration tests for the framework.
 
-`src/my_nlp_framework/models`: Defines high-level model architectures like BERT and GPT.
+---
 
-`src/my_nlp_framework/data`: Includes flexible data loaders.
+## 🤝 Contributing
 
-`src/my_nlp_framework/training`: A powerful, centralized training engine with advanced features.
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-`src/my_nlp_framework/tasks`: Example scripts that show how to use the framework to solve end-to-end problems.
+---
 
-`src/my_nlp_framework/inference`: Code for deploying and serving trained models.
+## 📄 License
 
-`configs/`: Centralized YAML configuration files for Hydra.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-`tests/`: Unit and integration tests for the framework.
+---
 
-This project was built as an advanced, from-scratch implementation of a modern NLP framework.
+<div align="center">
+Made with ❤️ by the project author
+</div>
