@@ -1,5 +1,5 @@
 <div align="center">
-
+```
 
 ███ ███ █  █ ███ ███ █ █ █  █ █   ██  
   █ █   ██ █  █   █  █ █ ██ █ █   █ █ 
@@ -8,6 +8,7 @@
 █   █   █  █  █   █  █ █ █  █ █   █   
 ███ ███ █  █ ███  █  █ █ █  █ ███ █   
                                     
+```
 
 ### A Framework for Advanced Natural Language Processing
 </div>
@@ -147,3 +148,4 @@ This framework is organized into several key modules:
 `tests/`: Unit and integration tests for the framework.
 
 This project was built as an advanced, from-scratch implementation of a modern NLP framework.
+
