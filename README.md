@@ -10,14 +10,21 @@
 ```
 
 # Zenith NLP Framework
-</div>
+
 ### A Framework for Advanced Natural Language Processing
 
 </div>
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch) ![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra) ![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow) ![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi) ![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch)
+![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra)
+![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow)
+![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi)
+![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
 
 </div>
 
@@ -44,7 +51,7 @@
   - `Seq2SeqTransformer` (Encoder-Decoder) for translation and summarization.
 - **Advanced Training Techniques**:
   - **Parameter-Efficient Fine-Tuning (PEFT)**: Integrated **LoRA** (Low-Rank Adaptation) for efficient fine-tuning of large models.
-  - **Distributed Training**: Support for multi-GPU training using PyTorch's `DistributedDataParallel`.
+  - **Distributed Training**: Support for multi-GPU training using PyTorch\'s `DistributedDataParallel`.
   - **Advanced Optimization**: Includes learning rate scheduling with warm-up and gradient clipping.
 - **Full MLOps Pipeline**:
   - **Configuration Management**: Powered by **Hydra**, allowing for flexible and reproducible experiments through YAML files.
@@ -144,7 +151,7 @@ You can also run the entire training process within a Docker container for perfe
 docker build -t zenith-nlp-framework:latest .
 
 # 2. Run a task (mounting your local data directory)
-docker run --rm -v "$(pwd)/data":/app/data mzenith-nlp-framework:latest \
+docker run --rm -v "$(pwd)/data":/app/data zenith-nlp-framework:latest \
   python -m my_nlp_framework.tasks.text_classification
 ```
 
@@ -178,6 +185,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 <div align="center">
-Made with ❤️ by the project author
+Made with ❤️ by K Satya Sai Nischal
 </div>
-
