@@ -9,15 +9,15 @@
 ██████ ██████ ██   ██ ██████   ██   ██  ██ ██   ██ ██████ ██    
 ```
 
-# A Framework for Advanced Natural Language Processing
-
+# Zenith NLP Framework
+</div>
 ### A Framework for Advanced Natural Language Processing
 
 </div>
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch) ![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra) ![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow) ![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi) ![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch) ![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra) ![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow) ![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi) ![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
 
 </div>
 
@@ -180,3 +180,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 <div align="center">
 Made with ❤️ by the project author
 </div>
+
