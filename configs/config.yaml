@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - model: bert
+  - training: default
+
+data_path: "${hydra:runtime.cwd}/data/text_dataset_20240717141623.csv"
+sample_size: 1000
+vocab_size: 10000
+max_len: 128
+num_classes: 2

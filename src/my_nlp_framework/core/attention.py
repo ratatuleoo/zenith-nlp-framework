@@ -1,4 +1,3 @@
-# src/my_nlp_framework/core/attention.py
 import torch
 import torch.nn as nn
 
@@ -14,3 +13,6 @@ class ScaledDotProductAttention(nn.Module):
         attention = torch.nn.functional.softmax(scores, dim=-1)
         output = torch.matmul(attention, value)
         return output, attention
+    
+    
+

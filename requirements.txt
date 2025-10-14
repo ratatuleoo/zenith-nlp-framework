@@ -10,3 +10,8 @@ flask
 matplotlib
 seaborn
 pytest
+hydra-core
+mlflow
+fastapi
+uvicorn[standard]
+typer

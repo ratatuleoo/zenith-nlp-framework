@@ -1,4 +1,3 @@
-# src/my_nlp_framework/core/embedding.py
 import torch
 import torch.nn as nn
 
@@ -9,3 +8,5 @@ class TokenEmbedding(nn.Module):
 
     def forward(self, tokens):
         return self.embedding(tokens)
+        
+        

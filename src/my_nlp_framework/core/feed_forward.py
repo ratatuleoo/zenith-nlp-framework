@@ -1,4 +1,3 @@
-# src/my_nlp_framework/core/feed_forward.py
 import torch
 import torch.nn as nn
 
